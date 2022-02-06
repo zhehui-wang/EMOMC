@@ -40,7 +40,7 @@ You need to pre-train and pre-prune the model before optimziation. As the cluste
     Python EMOMC.py --working_mode 0
 This working mode 0 will automatically prepare everything, it takes several hours to pre-process the VGG-16 on CIFAR10.
 ## Evolutionary Optimization
-We offer two types of optimization. working mode 1 is for the trade-off between accuracy and energy.
+We offer two types of optimization. Working mode 1 is for the trade-off between accuracy and energy.
 
     Python EMOMC.py --working_mode 1
 
