@@ -50,6 +50,7 @@ We offer two types of optimization. working mode 1 is for the trade-off between 
 
 ## Change of Parameters
 You can use -- dataflow_type or --coding_type to change the types. 
+
 For other parameters, please use -h to see the description!
 | Paramter|  Descrption|
 |--|--|
