@@ -49,6 +49,9 @@ We offer two types of optimization. working mode 1 is for the trade-off between 
     Python EMOMC.py --working_mode 2 --network_type 0 --dataset_type 0 
 
 ## Change of Parameters
+
+Please change the model type and dataset type by chaning the parameters --network_type and --dataset_type
+
 You can use -- dataflow_type or --coding_type to change the types. 
 
 For other parameters, please use -h to see the description!
