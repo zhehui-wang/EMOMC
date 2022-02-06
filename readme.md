@@ -56,7 +56,7 @@ You can use -- dataflow_type or --coding_type to change the types. For other par
 |device_id |index of the graphic card |
  network_type          |  0 for LeNet5, 1 for Mobilenet, 2 for VGG16, 3 for ResNet, 4 for customized mode
 dataset_type  | 0 for MINST, 1 for CIFAR10
-  dataflow_type |0 for  X|Y, 1 for IC|OC, 2 for Fx|Fy, 3 for X|Fx
+  dataflow_type |0 for  X,Y, 1 for IC,OC, 2 for Fx,Fy, 3 for X,Fx
 coding_type | 0 for normal, 1 for CSR, 2 for COO
 population_size |number of nodes per generation
 number_generations|number of generations
