@@ -56,7 +56,7 @@ For other parameters, please use -h to see the description!
 |--|--|
 |working_mode | 0 for pretrain pruned model, 1 for energy optimizatoin, 2 for model size optimization |
 |device_id |index of the graphic card |
- network_type          |  0 for LeNet5, 1 for Mobilenet, 2 for VGG16, 3 for ResNet, 4 for customized model
+ network_type          |  0 for LeNet5, 1 for Mobilenet, 2 for VGG16, 3 for ResNet-18, 4 for customized model
 dataset_type  | 0 for MINST, 1 for CIFAR10
   dataflow_type |0 for  X,Y, 1 for IC,OC, 2 for Fx,Fy, 3 for X,Fx
 coding_type | 0 for normal, 1 for CSR, 2 for COO
