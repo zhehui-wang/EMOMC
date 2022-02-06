@@ -21,7 +21,7 @@ This is the code for the paper "Evolutionary Multi-Objective Model Compression f
 
 ## Including Your own Model
 
-Models are included in the folder **./model**. If you use the exiting models, please skip this section. If you want to add your own models, just editor a new python file **./model/myModel.py**. 
+Models are included in the folder **./model**. If you use the exiting models, please skip this section. If you want to add your own models, just editor the python file **./model/myModel.py** or add your own.
 
 In the python file, we import the following library, where we customize the conv layers and linear layers.
 
