@@ -27,7 +27,7 @@ In the python file, we import the following library, where we customize the conv
 
     import compression as R
 
-Then, for each conv layer or linear layer you want to compress, please replace the original module with our module. 
+For each conv layer or linear layer you want to compress, please replace the original module with our module. 
 
     nn.Conv2d --> R.Conv2d
     nn.Linear --> R.Linear
