@@ -60,8 +60,8 @@ dataset_type  | 0 for MINST, 1 for CIFAR10
 coding_type | 0 for normal, 1 for CSR, 2 for COO
 population_size |number of nodes per generation
 number_generations|number of generations
-size_constraint |up bound for size
-energy_constraint |up bound for energy
+size_constraint |upper bound for size
+energy_constraint |upper bound for energy
 pre_train_epochs|the number of epoches to train a model from scratch
 pre_prune_upper_bound|the maximum pruning remaining amount'
 pre_prune_lower_bound |the minimum pruning remaining amount
