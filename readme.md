@@ -38,7 +38,7 @@ For each conv layer or linear layer you want to compress, please replace the ori
 You need to pre-train and pre-prune the model before optimziation. As the cluster of checkpoints are huge, we do not provide checkpoints. Please run the following command to prepare the checkpoints.
 
     Python EMOMC.py --working_mode 0
-This working mode 0 will automatically prepare everything, it takes several hours to prepare VGG-16 on CIFAR10.
+This working mode 0 will automatically prepare everything, it takes several hours to pre-process the VGG-16 on CIFAR10.
 ## Evolutionary Optimization
 We offer two types of optimization. working mode 1 is for the trade-off between accuracy and energy.
 
