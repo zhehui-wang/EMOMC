@@ -29,8 +29,8 @@ In the python file, we import the following library, where we customize the conv
 
 For each conv layer or linear layer you want to compress, please replace the original module with our module. 
 
-    nn.Conv2d --> R.Conv2d
-    nn.Linear --> R.Linear
+    torch.nn.Conv2d --> R.Conv2d
+    torch.nn.Linear --> R.Linear
 
 
 ## Pre-train and Pre-prune the Model
