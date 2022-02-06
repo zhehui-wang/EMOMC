@@ -50,7 +50,7 @@ We offer two types of optimization. working mode 1 is for the trade-off between 
 
 ## Change of Parameters
 
-Please change the model type and dataset type by chaning the parameters --network_type and --dataset_type
+Please change the model type and dataset type by changing the parameters --network_type and --dataset_type
 
 You can use -- dataflow_type or --coding_type to change the types. 
 
