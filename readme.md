@@ -79,5 +79,5 @@ pre_prune_epochs |the number of epoches to fine-tune a pre-prund model
 We show an example in the file **demo.sh**, where we first pre-process VGG16 on CIFAR10 and then make trade-off between accuracy and energy on dataflow type X|Fx
 
     python EMOMC.py --working_mode 0 --network_type 2 --dataset_type 1
-    python EMOMC.py --working_mode 1 --network_type 2 --dataset_type 1 --dataflow 3
+    python EMOMC.py --working_mode 1 --network_type 2 --dataset_type 1 --dataflow_type 3
     
