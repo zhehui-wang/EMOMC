@@ -74,7 +74,7 @@ pre_prune_step |the step of pre-prune'
 pre_prune_epochs |the number of epoches to fine-tune a pre-prund model
 
 
-## Case Study
+## Example Case
 
 We show an example in the file **demo.sh**, where we first pre-process VGG16 on CIFAR10 and then make trade-off between accuracy and energy on dataflow type X|Fx
 
