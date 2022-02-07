@@ -38,7 +38,7 @@ For each conv layer or linear layer you want to compress, please replace the ori
 You need to pre-train and pre-prune the model before optimziation. As the cluster of checkpoints is in large volume, we do not provide checkpoints. Please run the following command to generated trained models.
 
     Python EMOMC.py --working_mode 0
-This working mode 0 will automatically prepare everything, it takes several hours to pre-process the VGG-16 on CIFAR10.
+This working mode 0 will automatically prepare everything, it takes several hours to pre-process the VGG-16 on CIFAR-10.
 ## Evolutionary Optimization
 We offer two types of optimization. Working mode 1 is for the trade-off between accuracy and energy.
 
@@ -76,7 +76,7 @@ pre_prune_epochs |the number of epoches to fine-tune a pre-prund model
 
 ## Example Case
 
-We show an example in the file **demo.sh**, where we first pre-process VGG16 on CIFAR10 and then make trade-off between accuracy and energy on dataflow type X|Fx
+We show an example in the file **demo.sh**, where we first pre-process VGG-16 on CIFAR-10 and then make trade-off between accuracy and energy on dataflow type X|Fx
 
     python EMOMC.py --working_mode 0 --network_type 2 --dataset_type 1
     python EMOMC.py --working_mode 1 --network_type 2 --dataset_type 1 --dataflow_type 3
