@@ -19,7 +19,7 @@ This is the code for the paper "Evolutionary Multi-Objective Model Compression f
 
 ## Dependency
 
-This project has been testd on the Python 3.7.4. Please install the libary for evolutionary optimization **Pymoo**.
+This project has been testd on the Python 3.7.4. Please install the libary for evolutionary optimization solver **Pymoo**.
 
     pip install pymoo
 
