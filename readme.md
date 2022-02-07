@@ -1,7 +1,7 @@
 
 # EMOMC
 
-Welcome to the project of "Evolutionary Multi-Objective Model Compression for Deep Neural Networks" This project has been testd on the Python 3.7.4
+Welcome to the project of "Evolutionary Multi-Objective Model Compression for Deep Neural Networks" 
 
 ## Reference Paper
 This is the code for the paper "Evolutionary Multi-Objective Model Compression for Deep Neural Networks". The following is the bibtex.
@@ -17,7 +17,11 @@ This is the code for the paper "Evolutionary Multi-Objective Model Compression f
       publisher={IEEE}
     }
 
+## Dependency
 
+This project has been testd on the Python 3.7.4. Please install the libary for evolutionary optimization **Pymoo**.
+
+    pip install pymoo
 
 ## Including Your own Model
 
